@@ -1,0 +1,151 @@
+% Mehrdad Shoeibi, CV. Compile with pdfLaTeX (Overleaf default compiler).
+% Single-column, plain-text layout with Type 1 fonts so applicant-tracking systems parse it cleanly.
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[top=0.42in,bottom=0.42in,left=0.6in,right=0.6in]{geometry}
+\usepackage{cmap}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[scaled=0.93]{helvet}    % Nimbus Sans (Helvetica clone), Type 1, embeds and extracts cleanly
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage[hidelinks,pdfusetitle]{hyperref}
+\hypersetup{pdftitle={Mehrdad Shoeibi, CV},pdfauthor={Mehrdad Shoeibi},pdfsubject={Curriculum vitae},pdfkeywords={machine learning, biomedical data science, transcriptomics, distribution shift, weak supervision, foundation models}}
+\usepackage{microtype}
+
+\definecolor{navy}{HTML}{152239}
+\definecolor{accent}{HTML}{8C6A4E}
+\definecolor{muted}{HTML}{555555}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\raggedright
+\raggedbottom
+
+% Section titles: uppercase, thin rule underneath
+\titleformat{\section}{\color{navy}\bfseries\large\uppercase}{}{0pt}{}[\vspace{-6pt}\rule{\textwidth}{0.6pt}]
+\titlespacing*{\section}{0pt}{5pt}{3pt}
+
+% Entry helpers
+\newcommand{\entry}[4]{% title, dates, organisation, location
+  {\bfseries #1}\hfill{\color{muted}#2}\\
+  {#3}\ifx&#4&\else\hfill{\color{muted}#4}\fi\par\vspace{1pt}}
+\newcommand{\me}{\textbf{Shoeibi, M.}}
+
+\setlist[itemize]{leftmargin=1.1em,itemsep=0.5pt,parsep=0pt,topsep=1.5pt,label=--}
+\setlist[enumerate]{leftmargin=1.5em,itemsep=1pt,parsep=0pt,topsep=1.5pt}
+
+\begin{document}
+
+% ---------------------------------------------------------------- header
+{\LARGE\bfseries\color{navy}Mehrdad Shoeibi}\par\vspace{2pt}
+Machine learning researcher. Ph.D. student, Industrial Engineering and Management Systems, University of Central Florida, Orlando, FL, USA\par\vspace{2pt}
+{\color{muted}
+\href{mailto:Mehrdad.Shoeibi@ucf.edu}{Mehrdad.Shoeibi@ucf.edu} \textbar{}
+\href{https://mehrdadshoeibi.me}{mehrdadshoeibi.me} \textbar{}
+\href{https://www.linkedin.com/in/mehrdad-shoeibi/}{linkedin.com/in/mehrdad-shoeibi} \textbar{}
+\href{https://github.com/mehrdad-shoeibi}{github.com/mehrdad-shoeibi} \textbar{}
+\href{https://scholar.google.com/citations?user=1M23aUoAAAAJ&hl=en}{Google Scholar} \textbar{}
+\href{https://orcid.org/0009-0006-5470-0397}{ORCID 0009-0006-5470-0397}}
+
+% ---------------------------------------------------------------- summary
+\section{Summary}
+Machine learning researcher working on reliability under weak supervision and distribution shift, with applications to transcriptomics, CRISPR perturbation screens and healthcare decision support. Author of nine peer-reviewed journal articles and three arXiv preprints, eight as first author. Builds reproducible evaluation pipelines in Python (PyTorch, scikit-learn, XGBoost) with pre-registered protocols, locked environments and audited reported numbers. Seven years of prior industry experience in project control and cost management for large construction programs.
+
+% ---------------------------------------------------------------- education
+\section{Education}
+\entry{Ph.D., Industrial Engineering and Management Systems}{2025 -- present}{University of Central Florida, Orlando, FL. Focus: reliable machine learning for biomedical data under weak supervision and distribution shift}{}
+\vspace{2pt}
+\entry{M.S., Information Technology}{2023 -- 2025}{Worcester Polytechnic Institute (full scholarship)}{Worcester, MA}
+\vspace{2pt}
+\entry{M.S., Industrial Engineering}{2018 -- 2021}{Institute for Management and Planning Studies (full scholarship)}{Tehran, Iran}
+\vspace{2pt}
+\entry{B.S., Industrial Engineering}{2010 -- 2014}{Islamic Azad University}{Tehran, Iran}
+
+% ---------------------------------------------------------------- research experience
+\section{Research Experience}
+\entry{Doctoral Researcher}{2025 -- present}{University of Central Florida, Department of Industrial Engineering and Management Systems}{Orlando, FL}
+\begin{itemize}
+  \item Designed a pre-registered, test-once evaluation framework for frozen transcriptomic foundation models (Geneformer, scGPT, UCE): outcome rule, seeds and target-gene-grouped splits locked before any test data are seen; each model scored against a strong expression baseline, a matched-capacity Gaussian control and a shuffle control. On two external Perturb-seq datasets (RPE1, K562) all three cleared the controls, none reliably beat the baseline (arXiv:2608.26170).
+  \item Formalized \emph{supervision drift} and benchmarked Ridge, Random Forest and XGBoost on CRISPR-Cas13d RNA-seq across two cell lines and timepoints: in-domain learning held (ridge $R^2$ = 0.356, Spearman $\rho$ = 0.442) while temporal transfer collapsed (XGBoost $R^2$ = -0.155, $\rho$ = 0.056); proposed feature stability as a pre-deployment diagnostic (arXiv:2604.05002).
+  \item Showed on the Virtual Cell Challenge benchmark that four deterministic magnitude scalars drive CRISPRi perturbation-effect prediction on held-out target genes; a linear model on them beat the strongest expression-only classical model and transferred positively to two external CRISPRi screens where expression-only predictors did not (arXiv:2608.00152).
+  \item Co-developed BIOGEN, an evidence-grounded multi-agent reasoning framework for transcriptomic interpretation in antimicrobial resistance (Frontiers in Bioinformatics, 2026).
+  \item Maintains reproducible pipelines: Salmon quantification of public SRA RNA-seq, version-locked environments, and an audit trail mapping every reported number to its source file.
+\end{itemize}
+\vspace{3pt}
+\entry{Research Assistant, SmartWAnDS Project}{Aug 2023 -- May 2025}{Worcester Polytechnic Institute}{Worcester, MA}
+\begin{itemize}
+  \item Led a systematic review of generative AI for the production, classification and annotation of chronic wound images (AMCIS 2024).
+  \item Developed and evaluated AI-assisted tools for wound image annotation, classification and clinical decision support.
+  \item Ran literature screening, data extraction and reproducibility assessment, and wrote for peer-reviewed submissions in healthcare AI.
+\end{itemize}
+
+% ---------------------------------------------------------------- publications
+\section{Publications}
+\begingroup\small
+\textbf{Machine learning for biology and healthcare}
+\begin{enumerate}
+  \item \me{} and Yousefi, N. (2026). Pre-Registered External Evaluation Yields a Consistent Partial-Replication Category across Three Transcriptomic Foundation Models. \emph{arXiv preprint}. \href{https://arxiv.org/abs/2608.26170}{arXiv:2608.26170}
+  \item \me{} and Yousefi, N. (2026). Response Magnitude as a Dominant Signal for Held-Out CRISPRi Perturbation Effect Prediction. \emph{arXiv preprint}. \href{https://arxiv.org/abs/2608.00152}{arXiv:2608.00152}
+  \item \me{}, Hossain, E., Garibay, I., and Yousefi, N. (2026). Learning Stable Predictors from Weak Supervision under Distribution Shift. \emph{arXiv preprint}. \href{https://arxiv.org/abs/2604.05002}{arXiv:2604.05002}
+  \item Hossain, E., \me{}, Garibay, I., and Yousefi, N. (2026). BIOGEN: Evidence-Grounded Multi-Agent Reasoning Framework for Transcriptomic Interpretation in Antimicrobial Resistance. \emph{Frontiers in Bioinformatics}, 6. \href{https://doi.org/10.3389/fbinf.2026.1846404}{doi:10.3389/fbinf.2026.1846404}
+  \item \me{}, Tulu, B., and Agu, E. O. (2024). Utilizing Generative AI for the Production, Classification, and Annotation of Chronic Wound Images: A Systematic Review. \emph{AMCIS 2024 TREOs}, 193. \href{https://aisel.aisnet.org/treos_amcis2024/193/}{aisel.aisnet.org/treos\_amcis2024/193}
+  \item \me{} and Baghbadorani, P. R. (2023). Moving Toward Resiliency in Health Supply Chain. \emph{International Journal of Industrial Engineering and Operational Research}, 5(3), 63--74.
+\end{enumerate}
+\textbf{Optimization, reinforcement learning and secure IoT systems}
+\begin{enumerate}[resume]
+  \item Khatami, S. S., \me{}, Ershadi Oskouei, A., Mart\'in, D., and Keramat Dashliboroun, M. (2025). 5DGWO-GAN: A Novel Five-Dimensional Gray Wolf Optimizer for Generative Adversarial Network-Enabled Intrusion Detection in IoT Systems. \emph{Computers, Materials \& Continua}, 82(1), 881--911. \href{https://doi.org/10.32604/cmc.2024.059999}{doi:10.32604/cmc.2024.059999}
+  \item Sharifi Nevisi, M. M., \me{}, Hernando-Gallego, F., Mart\'in, D., and Khatami, S. S. (2025). An Evolutionary Deep Reinforcement Learning-Based Framework for Efficient Anomaly Detection in Smart Power Distribution Grids. \emph{Energies}, 18(10), 2435. \href{https://doi.org/10.3390/en18102435}{doi:10.3390/en18102435}
+  \item Vaziri, A., Sadatian Moghaddam, P., \me{}, and Kaveh, M. (2025). Energy-Efficient Secure Cell-Free Massive MIMO for Internet of Things: A Hybrid CNN--LSTM-Based Deep-Learning Approach. \emph{Future Internet}, 17(4), 169. \href{https://doi.org/10.3390/fi17040169}{doi:10.3390/fi17040169}
+  \item Khatami, S. S., \me{}, Salehi, R., and Kaveh, M. (2025). Energy-Efficient and Secure Double RIS-Aided Wireless Sensor Networks: A QoS-Aware Fuzzy Deep Reinforcement Learning Approach. \emph{Journal of Sensor and Actuator Networks}, 14(1), 18. \href{https://doi.org/10.3390/jsan14010018}{doi:10.3390/jsan14010018}
+  \item \me{}, Ershadi Oskouei, A., and Kaveh, M. (2024). A Novel Six-Dimensional Chimp Optimization Algorithm--Deep Reinforcement Learning-Based Optimization Scheme for Reconfigurable Intelligent Surface-Assisted Energy Harvesting in Batteryless IoT Networks. \emph{Future Internet}, 16(12), 460. \href{https://doi.org/10.3390/fi16120460}{doi:10.3390/fi16120460}
+  \item \me{}, Sharifi Nevisi, M. M., Khatami, S. S., Mart\'in, D., Soltani, S., and Aghakhani, S. (2024). Improved IChOA-Based Reinforcement Learning for Secrecy Rate Optimization in Smart Grid Communications. \emph{Computers, Materials \& Continua}, 81(2), 2819--2843. \href{https://doi.org/10.32604/cmc.2024.056823}{doi:10.32604/cmc.2024.056823}
+  \item \me{}, Sharifi Nevisi, M. M., Salehi, R., Mart\'in, D., Halimi, Z., and Baniasadi, S. (2024). Enhancing Hyper-Spectral Image Classification with Reinforcement Learning and Advanced Multi-Objective Binary Grey Wolf Optimization. \emph{Computers, Materials \& Continua}, 79(3), 3469--3493. \href{https://doi.org/10.32604/cmc.2024.049847}{doi:10.32604/cmc.2024.049847}
+\end{enumerate}
+\endgroup
+
+% ---------------------------------------------------------------- peer review
+\section{Peer Review}
+\begingroup\small
+\textbf{Conferences:} NeurIPS 2026 workshops (Trustworthy AI Evaluation; I Can't Believe It's Not Better, Biology); HICSS.\par
+\textbf{Journals:} Applied Soft Computing (36 reviews); Knowledge-Based Systems (13 reviews); Scientific Reports; Discover Internet of Things; Computers \& Electrical Engineering.
+\endgroup
+
+% ---------------------------------------------------------------- skills
+\section{Skills}
+\begingroup\small
+\begin{itemize}
+  \item \textbf{Programming and ML:} Python, PyTorch, scikit-learn, XGBoost, SHAP, Keras, MATLAB, Bash, LaTeX; evaluation under distribution shift, weak and proxy supervision, feature-stability and interpretability analysis, reinforcement learning, metaheuristic optimization
+  \item \textbf{Biomedical data:} bulk and single-cell transcriptomics, Perturb-seq and CRISPR screens, Salmon quantification, transcriptomic foundation models (Geneformer, scGPT, UCE), systematic reviews (PRISMA)
+  \item \textbf{Data and reproducibility:} NumPy, pandas, Jupyter, Google Colab, Git/GitHub, GitLab, Docker, Linux; pre-registered evaluation protocols, version-locked environments
+  \item \textbf{Analytics and engineering tools:} statistical analysis, Minitab, Tableau, operations research, mathematical programming; MS Project, Primavera P6, Navisworks, Vensim, Visio, Azure
+\end{itemize}
+\endgroup
+
+% ---------------------------------------------------------------- awards
+\section{Awards and Honors}
+\begingroup\small
+Doctoral Fellowship, University of Central Florida (2025); Full Scholarship, M.S. in Information Technology, Worcester Polytechnic Institute (2023); Full Scholarship, M.S. in Industrial Engineering, Institute for Management and Planning Studies (2019); Top 1\% of more than 20,000 applicants, Iranian National Graduate Entrance Exam for Master's programs (2018).
+\endgroup
+
+% ---------------------------------------------------------------- teaching
+\section{Teaching}
+\begingroup\small
+Teaching Assistant, Institute for Management and Planning Studies, Tehran: Game Theory (Feb -- Jun 2021); Energy Pricing (Feb -- Jun 2019). Course delivery support, grading and student tutoring.
+\endgroup
+
+% ---------------------------------------------------------------- industry
+\section{Industry Experience (2013 -- 2023)}
+\begingroup\small
+\entry{Project Control Manager, Aalam Architectural \& Structural Consultants, Tehran}{Dec 2019 -- Apr 2023}{Scheduling, progress tracking, cost estimation and BIM coordination for large programs (Iran Telecommunication Twin Towers, Atiehgharb Hospital, the 2,000-unit Ronika Palace development); led an eight-member project-control team.}{}
+\vspace{2pt}
+\textbf{Project Control Specialist, Payasazeh Pasargad, Tehran}\hfill{\color{muted}Jun 2018 -- Dec 2019}\\
+Project schedules, progress reporting and value-engineering recommendations.\par\vspace{2pt}
+\textbf{Project Control Engineer, Aalam Architectural \& Structural Consultants, Tehran}\hfill{\color{muted}Jan 2013 -- Jul 2015}\\
+Scheduling, reporting and coordination for architectural and structural projects.
+\endgroup
+
+\end{document}
