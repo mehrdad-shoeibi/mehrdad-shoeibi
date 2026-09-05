@@ -115,15 +115,8 @@ Sarvenaz Sadat Khatami, **Mehrdad Shoeibi**, Anita Ershadi Oskouei, Diego Martí
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=mehrdad-shoeibi&hide_border=false&background=0A1424&border=223047&stroke=223047&ring=D5B79F&fire=D5B79F&currStreakNum=F5EDE3&sideNums=F5EDE3&currStreakLabel=D5B79F&sideLabels=E0D8CF&dates=9AA3B2&border_radius=8">
-  <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=mehrdad-shoeibi&hide_border=false&background=FFFFFF&border=E0D8CF&stroke=E0D8CF&ring=C39E82&fire=C39E82&currStreakNum=152239&sideNums=152239&currStreakLabel=C39E82&sideLabels=213248&dates=6B7280&border_radius=8">
-</picture>
-
-<br><br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=mehrdad-shoeibi&bg_color=0A1424&color=E0D8CF&line=D5B79F&point=F5EDE3&area=true&area_color=D5B79F&hide_border=false&border_color=223047&custom_title=Contribution%20activity&radius=8">
-  <img alt="Contribution activity" src="https://github-readme-activity-graph.vercel.app/graph?username=mehrdad-shoeibi&bg_color=FFFFFF&color=213248&line=C39E82&point=152239&area=true&area_color=C39E82&hide_border=false&border_color=E0D8CF&custom_title=Contribution%20activity&radius=8" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=mehrdad-shoeibi&hide_border=false&background=0A1424&border=223047&stroke=223047&ring=D5B79F&fire=D5B79F&currStreakNum=F5EDE3&sideNums=F5EDE3&currStreakLabel=D5B79F&sideLabels=E0D8CF&dates=9AA3B2&border_radius=8&disable_animations=true">
+  <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=mehrdad-shoeibi&hide_border=false&background=FFFFFF&border=E0D8CF&stroke=E0D8CF&ring=C39E82&fire=C39E82&currStreakNum=152239&sideNums=152239&currStreakLabel=C39E82&sideLabels=213248&dates=6B7280&border_radius=8&disable_animations=true">
 </picture>
 
 </div>
