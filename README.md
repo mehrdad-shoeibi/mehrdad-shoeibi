@@ -7,7 +7,7 @@
 
 <br>
 
-<a href="https://mehrdadshoeibi.me"><img src="https://readme-typing-svg.demolab.com/?font=Sora&weight=500&size=19&duration=3200&pause=900&color=C39E82&center=true&vCenter=true&width=780&height=42&lines=Ph.D.+student+at+the+University+of+Central+Florida;Reliable+machine+learning+for+biomedical+data+science;Weak+supervision+%C2%B7+Distribution+shift+%C2%B7+Robust+representations;Foundation+models+for+gene+regulation+and+single-cell+data" alt="Ph.D. student at the University of Central Florida. Reliable machine learning for biomedical data science."></a>
+<a href="https://mehrdadshoeibi.me"><img src="https://readme-typing-svg.demolab.com/?font=Sora&weight=500&size=19&duration=3200&pause=900&color=C39E82&center=true&vCenter=true&width=780&height=42&lines=Reliable+machine+learning+for+biomedical+data+science;Weak+supervision+%C2%B7+Distribution+shift+%C2%B7+Robust+representations;Foundation+models+for+gene+regulation+and+single-cell+data" alt="Reliable machine learning for biomedical data science."></a>
 
 <br>
 
@@ -23,7 +23,7 @@
 
 <br>
 
-I am a Ph.D. student in Industrial Engineering and Management Systems at the University of Central Florida, advised by Dr. Niloofar Yousefi. I study how machine learning models behave when supervision is weak or noisy and when data shifts between training and real-world deployment. My current work covers foundation models for gene regulation and single-cell transcriptomics, weakly supervised and robust representation learning, and decision-support methods for high-stakes prediction. My goal is to develop methods that perform reliably in practice, not only on benchmarks.
+I am a Ph.D. student in Industrial Engineering and Management Systems at the University of Central Florida. I study how machine learning models behave when supervision is weak or noisy and when data shifts between training and real-world deployment. My current work covers foundation models for gene regulation and single-cell transcriptomics, weakly supervised and robust representation learning, and decision-support methods for high-stakes prediction. My goal is to develop methods that perform reliably in practice, not only on benchmarks.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mehrdad-shoeibi/mehrdad-shoeibi/main/assets/divider-dark.svg">
@@ -70,19 +70,44 @@ I am a Ph.D. student in Industrial Engineering and Management Systems at the Uni
 Elias Hossain, **Mehrdad Shoeibi**, Ivan Garibay, Niloofar Yousefi · *Frontiers in Bioinformatics*, 2026<br>
 <a href="https://doi.org/10.3389/fbinf.2026.1846404"><img src="https://img.shields.io/badge/DOI-10.3389%2Ffbinf.2026.1846404-152239?style=flat-square" alt="DOI"></a> <a href="https://arxiv.org/abs/2510.16082"><img src="https://img.shields.io/badge/arXiv-2510.16082-B31B1B?style=flat-square&logo=arxiv&logoColor=white" alt="arXiv"></a>
 
-**An Evolutionary Deep Reinforcement Learning-Based Framework for Efficient Anomaly Detection in Smart Power Distribution Grids**<br>
-Mohammad Mehdi Sharifi Nevisi, **Mehrdad Shoeibi**, Francisco Hernando-Gallego, Diego Martín, Sarvenaz Sadat Khatami · *Energies*, 2025<br>
-<a href="https://doi.org/10.3390/en18102435"><img src="https://img.shields.io/badge/DOI-10.3390%2Fen18102435-152239?style=flat-square" alt="DOI"></a>
+**Pre-Registered External Evaluation Yields a Consistent Partial-Replication Category across Three Transcriptomic Foundation Models**<br>
+**Mehrdad Shoeibi**, Niloofar Yousefi · *arXiv preprint*, 2026<br>
+<a href="https://arxiv.org/abs/2608.26170"><img src="https://img.shields.io/badge/arXiv-2608.26170-B31B1B?style=flat-square&logo=arxiv&logoColor=white" alt="arXiv"></a>
 
-**5DGWO-GAN: A Novel Five-Dimensional Gray Wolf Optimizer for Generative Adversarial Network-Enabled Intrusion Detection in IoT Systems**<br>
-Sarvenaz Sadat Khatami, **Mehrdad Shoeibi**, Anita Ershadi Oskouei, Diego Martín, Maral Keramat Dashliboroun · *Computers, Materials & Continua*, 2025<br>
-<a href="https://doi.org/10.32604/cmc.2024.059999"><img src="https://img.shields.io/badge/DOI-10.32604%2Fcmc.2024.059999-152239?style=flat-square" alt="DOI"></a>
+**Response Magnitude as a Dominant Signal for Held-Out CRISPRi Perturbation Effect Prediction**<br>
+**Mehrdad Shoeibi**, Niloofar Yousefi · *arXiv preprint*, 2026<br>
+<a href="https://arxiv.org/abs/2608.00152"><img src="https://img.shields.io/badge/arXiv-2608.00152-B31B1B?style=flat-square&logo=arxiv&logoColor=white" alt="arXiv"></a>
 
 **Utilizing Generative AI for the Production, Classification, and Annotation of Chronic Wound Images: A Systematic Review**<br>
 **Mehrdad Shoeibi**, Bengisu Tulu, Emmanuel O. Agu · *AMCIS 2024 TREOs*, 2024<br>
 <a href="https://aisel.aisnet.org/treos_amcis2024/193/"><img src="https://img.shields.io/badge/AIS%20eLibrary-Paper-152239?style=flat-square" alt="AIS eLibrary"></a>
 
 <p align="right"><a href="https://scholar.google.com/citations?user=1M23aUoAAAAJ&hl=en">Full list on Google Scholar →</a></p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mehrdad-shoeibi/mehrdad-shoeibi/main/assets/divider-dark.svg">
+  <img alt="" src="https://raw.githubusercontent.com/mehrdad-shoeibi/mehrdad-shoeibi/main/assets/divider-light.svg" width="100%">
+</picture>
+
+## Peer review
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b>Conferences</b><br>
+      NeurIPS 2026 workshops (TAE, ICBINB-BIO)<br>
+      HICSS
+    </td>
+    <td width="50%" valign="top">
+      <b>Journals</b><br>
+      Applied Soft Computing (36 reviews)<br>
+      Knowledge-Based Systems (13 reviews)<br>
+      Scientific Reports<br>
+      Discover Internet of Things<br>
+      Computers &amp; Electrical Engineering
+    </td>
+  </tr>
+</table>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mehrdad-shoeibi/mehrdad-shoeibi/main/assets/divider-dark.svg">
