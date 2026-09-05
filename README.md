@@ -17,7 +17,7 @@
 <a href="https://orcid.org/0009-0006-5470-0397"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"></a>&nbsp;
 <a href="https://www.researchgate.net/profile/Mehrdad-Shoeibi"><img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white" alt="ResearchGate"></a>&nbsp;
 <a href="mailto:Mehrdad.Shoeibi@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>&nbsp;
-<a href="https://mehrdadshoeibi.me/assets/cv/resumemehrdadshoeibi.pdf"><img src="https://img.shields.io/badge/CV-C39E82?style=for-the-badge&logo=readdotcv&logoColor=white" alt="CV"></a>
+<a href="https://github.com/mehrdad-shoeibi/mehrdad-shoeibi/raw/main/assets/cv/Mehrdad_Shoeibi_CV.pdf"><img src="https://img.shields.io/badge/CV-C39E82?style=for-the-badge&logo=readdotcv&logoColor=white" alt="CV"></a>
 
 </div>
 
