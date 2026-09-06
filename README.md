@@ -23,36 +23,49 @@
 
 <br>
 
-I am a Ph.D. student in Industrial Engineering and Management Systems at the University of Central Florida. I study how machine learning models behave when supervision is weak or noisy and when data shifts between training and real-world deployment. My current work covers foundation models for gene regulation and single-cell transcriptomics, weakly supervised and robust representation learning, and decision-support methods for high-stakes prediction. My goal is to develop methods that perform reliably in practice, not only on benchmarks.
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mehrdad-shoeibi/mehrdad-shoeibi/main/assets/divider-dark.svg">
-  <img alt="" src="https://raw.githubusercontent.com/mehrdad-shoeibi/mehrdad-shoeibi/main/assets/divider-light.svg" width="100%">
-</picture>
-
-## Research focus
-
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <b>Weak and noisy supervision</b><br>
-      Learning from proxy labels and indirect targets, and characterizing when that supervision remains valid.
-    </td>
-    <td width="50%" valign="top">
-      <b>Distribution shift</b><br>
-      Supervision drift, transfer across cell lines, timepoints and cohorts, and predictors whose features stay stable across environments.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <b>Foundation models for biology</b><br>
-      Evaluation and adaptation of transcriptomic foundation models for gene regulation, perturbation and single-cell data.
-    </td>
-    <td width="50%" valign="top">
-      <b>Healthcare AI and decision support</b><br>
-      Reliable prediction for high-stakes settings and evidence-grounded reasoning over biomedical data.
-    </td>
-  </tr>
+<tr>
+<td width="54%" valign="top">
+
+### 🎯 What I do
+
+```python
+# mehrdad.py
+class Researcher:
+    name     = "Mehrdad Shoeibi"
+    role     = "Ph.D. student · IEMS, UCF"
+    based_in = "Orlando, FL"
+
+    focus = ["reliable ML", "biomedical data science"]
+
+    working_on = [
+        "foundation models for gene regulation",
+        "learning from weak and noisy supervision",
+        "prediction under distribution shift",
+        "single-cell and perturbation data",
+    ]
+
+    goal = "works in practice, not only on benchmarks"
+```
+
+</td>
+<td width="46%" valign="top">
+
+### 🔬 Research focus
+
+- 🧪 **Weak supervision** · learning from proxy labels, and when they remain valid
+- 🔀 **Distribution shift** · supervision drift and transfer across cell lines, timepoints and cohorts
+- 🧬 **Foundation models for biology** · evaluating and adapting transcriptomic models for gene regulation
+- 🏥 **Healthcare AI** · reliable prediction and decision support in high-stakes settings
+
+### 🚀 Currently
+
+- 📐 Pre-registered evaluation of transcriptomic foundation models
+- 🧫 Supervision drift in CRISPR-Cas13d screens
+- ✍️ Reviewing for NeurIPS 2026 workshops
+
+</td>
+</tr>
 </table>
 
 <picture>
@@ -91,40 +104,53 @@ Elias Hossain, **Mehrdad Shoeibi**, Ivan Garibay, Niloofar Yousefi · *Frontiers
 
 ## Peer review
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <b>Conferences</b><br>
-      NeurIPS 2026 workshops (TAE, ICBINB-BIO)<br>
-      HICSS
-    </td>
-    <td width="50%" valign="top">
-      <b>Journals</b><br>
-      Applied Soft Computing (36 reviews)<br>
-      Knowledge-Based Systems (13 reviews)<br>
-      Scientific Reports<br>
-      Discover Internet of Things<br>
-      Computers &amp; Electrical Engineering
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mehrdad-shoeibi/mehrdad-shoeibi/main/assets/review-dark.svg">
+  <img alt="Peer review. Conferences: NeurIPS 2026 workshops (TAE, ICBINB-BIO); HICSS. Journals: Applied Soft Computing (36 reviews); Knowledge-Based Systems (13 reviews); Scientific Reports; Discover Internet of Things; Computers and Electrical Engineering." src="https://raw.githubusercontent.com/mehrdad-shoeibi/mehrdad-shoeibi/main/assets/review-light.svg" width="100%">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mehrdad-shoeibi/mehrdad-shoeibi/main/assets/divider-dark.svg">
   <img alt="" src="https://raw.githubusercontent.com/mehrdad-shoeibi/mehrdad-shoeibi/main/assets/divider-light.svg" width="100%">
 </picture>
 
-## Tools I work with
+## ⚡ Tech stack
 
 <div align="center">
 
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=py,pytorch,sklearn,docker,git,github,linux,bash,latex&perline=9" alt="Python, PyTorch, scikit-learn, Docker, Git, GitHub, Linux, Bash, LaTeX"></a>
+<h4>💻 Languages</h4>
 
-<br>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=py,js,ts,bash,matlab,latex&perline=6" alt="Python, JavaScript, TypeScript, Bash, MATLAB, LaTeX"></a>
+
+<h4>🤖 AI &amp; Machine Learning</h4>
+
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&perline=3" alt="PyTorch, TensorFlow, scikit-learn"></a>
+
+<img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" alt="Keras">
+<img src="https://img.shields.io/badge/XGBoost-152239?style=flat-square" alt="XGBoost">
+<img src="https://img.shields.io/badge/SHAP-152239?style=flat-square" alt="SHAP">
+<img src="https://img.shields.io/badge/Geneformer-152239?style=flat-square" alt="Geneformer">
+<img src="https://img.shields.io/badge/scGPT-152239?style=flat-square" alt="scGPT">
+<img src="https://img.shields.io/badge/UCE-152239?style=flat-square" alt="UCE">
+
+<h4>📊 Data &amp; Databases</h4>
+
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=anaconda,postgres,mysql,sqlite,mongodb&perline=5" alt="Anaconda, PostgreSQL, MySQL, SQLite, MongoDB"></a>
 
 <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy">
 <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas">
 <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter">
+<img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white" alt="Google Colab">
+<img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" alt="Tableau">
+
+<h4>🌐 Web &amp; App Development</h4>
+
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,django,flask,firebase,html,css&perline=8" alt="React, Next.js, Node.js, Django, Flask, Firebase, HTML, CSS"></a>
+
+<h4>🛠️ Tools &amp; Platforms</h4>
+
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git,github,gitlab,docker,linux,azure,vscode,vercel,postman&perline=9" alt="Git, GitHub, GitLab, Docker, Linux, Azure, VS Code, Vercel, Postman"></a>
+
 <img src="https://img.shields.io/badge/Overleaf-47A141?style=flat-square&logo=overleaf&logoColor=white" alt="Overleaf">
 <img src="https://img.shields.io/badge/Minitab-152239?style=flat-square" alt="Minitab">
 
