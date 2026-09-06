@@ -25,31 +25,33 @@
 
 <table>
 <tr>
-<td width="54%" valign="top">
+<td width="56%" valign="top">
 
 ### 🎯 What I do
 
 ```python
 # mehrdad.py
 class Researcher:
-    name     = "Mehrdad Shoeibi"
-    role     = "Ph.D. student · IEMS, UCF"
-    based_in = "Orlando, FL"
+    name       = "Mehrdad Shoeibi"
+    located_in = "Orlando, Florida 🇺🇸"
+    status     = "Ph.D. student · IEMS, UCF"
 
     focus = ["reliable ML", "biomedical data science"]
 
     working_on = [
-        "foundation models for gene regulation",
-        "learning from weak and noisy supervision",
-        "prediction under distribution shift",
-        "single-cell and perturbation data",
+        "🧬 foundation models for gene regulation",
+        "🎯 learning from weak and noisy supervision",
+        "🔀 prediction under distribution shift",
+        "🧫 single-cell and perturbation data",
     ]
 
-    goal = "works in practice, not only on benchmarks"
+    goal  = "works in practice, not only on benchmarks"
+    motto = ("I always said hope keeps you alive. "
+             "Turns out it was the code.")
 ```
 
 </td>
-<td width="46%" valign="top">
+<td width="44%" valign="top">
 
 ### 🔬 Research focus
 
