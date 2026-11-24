@@ -64,7 +64,7 @@ class Researcher:
 
 - 📐 Pre-registered evaluation of transcriptomic foundation models
 - 🧫 Supervision drift in CRISPR-Cas13d screens
-- ✍️ Reviewing for NeurIPS 2026 workshops
+- ✍️ Program Committee, ACM SAC 2027 (Bioinformatics track)
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Elias Hossain, **Mehrdad Shoeibi**, Ivan Garibay, Niloofar Yousefi · *Frontiers
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mehrdad-shoeibi/mehrdad-shoeibi/main/assets/review-dark.svg">
-  <img alt="Peer review. Conferences: NeurIPS 2026 workshops (TAE, ICBINB-BIO); HICSS. Journals: Applied Soft Computing (36 reviews); Knowledge-Based Systems (13 reviews); Scientific Reports; Discover Internet of Things; Computers and Electrical Engineering." src="https://raw.githubusercontent.com/mehrdad-shoeibi/mehrdad-shoeibi/main/assets/review-light.svg" width="100%">
+  <img alt="Peer review. Conferences: ACM SAC 2027 (Program Committee, Bioinformatics track); NeurIPS 2026 workshops (TAE, ICBINB-BIO); HICSS. Journals: Applied Soft Computing (36 reviews); Knowledge-Based Systems (13 reviews); Scientific Reports; Discover Internet of Things; Computers and Electrical Engineering." src="https://raw.githubusercontent.com/mehrdad-shoeibi/mehrdad-shoeibi/main/assets/review-light.svg" width="100%">
 </picture>
 
 <picture>
