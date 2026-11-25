@@ -11,7 +11,7 @@
 
 <br>
 
-<a href="https://mehrdadshoeibi.me"><img src="https://img.shields.io/badge/Website-mehrdadshoeibi.me-152239?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>&nbsp;
+<a href="https://mehrdadshoeibi.me"><img src="https://img.shields.io/badge/Website-152239?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>&nbsp;
 <a href="https://scholar.google.com/citations?user=1M23aUoAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar"></a>&nbsp;
 <a href="https://www.linkedin.com/in/mehrdad-shoeibi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;
 <a href="https://orcid.org/0009-0006-5470-0397"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"></a>&nbsp;
